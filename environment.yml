@@ -4,7 +4,8 @@ channels:
   - potassco
 dependencies:
   - python>=3,<4
-  - clingo==5.5.1
+  - clingo=5.5
+  - jupyter=1.0
   - pip
   - pip:
-    - z3-solver==4.8.15.0
+    - z3-solver>=4.8,<5
