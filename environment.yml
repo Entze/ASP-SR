@@ -1,0 +1,10 @@
+name: SpatialReasoning
+channels:
+  - conda-forge
+  - potassco
+dependencies:
+  - python>=3,<4
+  - clingo==5.5.1
+  - pip
+  - pip:
+    - z3-solver==4.8.15.0
